@@ -1,0 +1,355 @@
+:root {
+  --green: #40ba37;
+  --yellow: #fbb710;
+  --darkGray: #474747;
+  --lightGray: #858585;
+  --white: #ffffff;
+  --horizontalPadding: 13rem;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+nav {
+  padding-top: 6.4rem;
+  padding-bottom: 5.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 var(--horizontalPadding) 0 var(--horizontalPadding);
+}
+
+nav img {
+  height: 5.2rem;
+}
+
+nav .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav .links a:hover {
+  filter: brightness(1.7);
+}
+
+nav .links a {
+  color: var(--darkGray);
+  font-weight: 400;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin: 0 var(--horizontalPadding) 0 var(--horizontalPadding);
+}
+
+.carousel-item {
+  /* width: 31.25rem; */
+  width: 100%;
+  height: 14.37rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 2.25rem;
+  background-color: var(--green);
+  margin-bottom: 7rem;
+}
+
+.item-1 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("Assets/Sushi.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.item-2 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("Assets/Cafe_da_manha_caseiro.jpg");
+  background-size: cover;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--darkGray);
+  text-align: center;
+  margin-bottom: 3.625rem;
+}
+
+.carousel-item h1 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.carousel-item h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-top: 1rem;
+}
+
+.carousel-item button {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.carousel-item button:hover {
+  filter: brightness(1.1);
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 var(--horizontalPadding) 7rem var(--horizontalPadding);
+}
+
+.item-card {
+  flex-basis: 30%;
+  min-width: 20rem;
+  height: 22.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-img {
+  width: 100%;
+  height: 17.5rem;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.item-img:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
+}
+
+.item-name {
+  color: var(--darkGray);
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.starContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.875rem;
+}
+
+.starContainer img {
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: 0;
+}
+
+.noGlutenSection {
+  height: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("Assets/pexels-jj-jordan-10640941.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.noGlutenSection:hover,
+.noGlutenSection:focus {
+  background-size: 110%;
+  filter: brightness(1.15);
+  animation-name: bgGrow;
+  animation-duration: 0.3s;
+}
+
+@keyframes bgGrow {
+  0% {
+    background-size: 100%;
+    filter: brightness(1);
+  }
+  100% {
+    background-size: 110%;
+    filter: brightness(1.15);
+  }
+}
+
+.noGlutenSection h1 {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.noGlutenSection p {
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 300;
+  margin: 1.5rem var(--horizontalPadding) 4rem var(--horizontalPadding);
+}
+
+.noGlutenSection button {
+  background-color: var(--white);
+  color: var(--green);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.noGlutenSection button:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+
+footer {
+  background-color: var(--darkGray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem var(--horizontalPadding) 6rem var(--horizontalPadding);
+  gap: 7rem;
+}
+
+footer p {
+  font-size: 1rem;
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-horizontal-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footerStack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footerStack h1 {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.footerStack h2 {
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: end;
+  gap: 1rem;
+}
+
+.inputContainer {
+  display: flex;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.inputContainer input {
+  width: 22rem;
+  padding: 1.3rem 1rem 1.3rem 1rem;
+  border: none;
+}
+
+.inputContainer input:active {
+  border: none;
+}
+
+.inputContainer button {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 1.3rem 1.5rem 1.3rem 1.5rem;
+  border: none;
+}
+
+.inputContainer button:hover {
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --horizontalPadding: 5rem;
+  }
+}
+
+a:hover {
+  filter: brightness(0.5);
+}
