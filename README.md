@@ -83,11 +83,15 @@ Criar um projeto e integrar as páginas com estrutura de rotas.
 
 - <a href="https://www.codecademy.com/catalog">Codecademy</a> (Gratuito)
 
+- <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> (Gratuito)
+
 - <a href="https://www.rocketseat.com.br/discover">Rocketseat</a> (Gratuito)
 
 - <a href="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/">Curso Luiz Otávio Miranda</a> ($)
 
-- <a href="https://programador.onebitcode.com/">OneBitCode</a> ($$$)
+- <a href="https://programador.onebitcode.com/">OneBitCode</a> ($$$) 
+
+- <a href="https://www.w3schools.com//">w3Schools</a> (Gratuito)
 
 - <a href="https://www.origamid.com/">Origamid</a> ($$$$$)
 
