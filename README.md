@@ -21,6 +21,10 @@ Prototipagem: <a href="https://www.figma.com/file/MZIsIkSGY0oX62hk1GEtvJ/Desafio
 
 O intuito deste projeto é puramente o aprendizado da estrutura e estilização com HTML e CSS. Portanto, não é necessário implementar funcionalidades, como o redirecionamento de botões ou envio de formulários.
 
+## Material de apoio:
+
+Conteúdo dentro da pasta `1_Desafio_HTML_CSS > modelo`
+
 # 2 - Desafio JavaScript e TypeScript
 
 Resolver desafios de typescript no <a href="https://www.codewars.com/">CodeWars</a> e criar um clone do jogo <a href="https://term.ooo/">Termo</a> (Ou <a href="https://www.nytimes.com/games/wordle/index.html">Wordle</a>, em sua versão original).
