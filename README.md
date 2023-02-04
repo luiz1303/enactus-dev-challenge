@@ -59,7 +59,7 @@ O jogo deve obedecer as seguintes regras:
 
 # 3 - Desafio Git e GitHub
 
-Clonar um repositório, criar uma nova branch, realizar as alterações sugeridas e realizar um Pull Request.
+Clonar este repositório, criar uma nova branch, realizar as alterações sugeridas nos arquivos localizados em `3_Desafio_GitHub` e abrir um Pull Request.
 
 ## Material de apoio:
 
@@ -74,10 +74,6 @@ Implementar um Widget de previsão do tempo com ReactJ, em que os dados virão d
 <a href="https://theultimateapichallenge.com/weather-api-react">Desafio Original</a>
 
 <a href="https://www.youtube.com/watch?v=VM4e37DaskU">API com Axios</a>
-
-# 5 - Desafio NextJS
-
-Criar um projeto e integrar as páginas com estrutura de rotas.
 
 ## Material de apoio:
 
