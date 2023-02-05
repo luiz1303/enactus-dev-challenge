@@ -61,6 +61,20 @@ O jogo deve obedecer as seguintes regras:
 
 Clonar este repositório, criar uma nova branch, realizar as alterações sugeridas nos arquivos localizados em `3_Desafio_GitHub` e abrir um Pull Request.
 
+Alterações:
+
+- Corrigir a importação do arquivo `style.css` dentro de `index.html`
+
+- Adicionar mais um item na lista de hotéis populares com os seguintes dados:
+
+  - Localização: `Fortaleza`
+  - Nome: `Hotel Villa Reali`
+  - Imagem: `https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`
+  - Preço: `R$ 250,00`
+  - Classificação: `4.7`
+
+- Corrigir a exibição do nome dos hotéis na lista
+
 ## Material de apoio:
 
 <a href="https://github.com/luiz1303/Tutorial_Git">https://github.com/luiz1303/Tutorial_Git</a>

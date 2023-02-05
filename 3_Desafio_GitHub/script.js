@@ -48,7 +48,7 @@ hotelData.forEach((hotel, index) => {
   <img src=${hotel.src} alt="Imagem do hotel ${index + 1}">
   <div class="card-content">
     <h3>${hotel.local}</h3>
-    <h2>${hotel.name}</h2>
+    <h2>${hotel.naem}</h2>
     <div class="horizontal-info">
       <p>R$${hotel.pricing}/Noite</p>
       <p>|</p>
