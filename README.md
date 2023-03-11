@@ -58,7 +58,8 @@ O jogo deve obedecer as seguintes regras:
 ## Material de apoio:
 
 <a href="https://youtu.be/LthS4B-IUdg"> TUTORIAL DO DESAFIO</a>
-<a href="https://github.com/luiz1303/Termo_clone">https://github.com/luiz1303/Termo_clone</a>
+
+<a href="https://github.com/luiz1303/Termo_clone">REPOSITÓRIO COM O PROJETO</a>
 
 # 3 - Desafio Git e GitHub
 
@@ -81,7 +82,8 @@ Alterações:
 ## Material de apoio:
 
 <a href="https://youtu.be/aiPd6VbRplY">TUTORIAL DO DESAFIO</a>
-<a href="https://github.com/luiz1303/Tutorial_Git">https://github.com/luiz1303/Tutorial_Git</a>
+
+<a href="https://github.com/luiz1303/Tutorial_Git">RESUMO GIT</a>
 
 # 4 - Desafio NodeJS e ReactJS
 
@@ -90,7 +92,9 @@ Implementar a página inicial de um website de compras, em que os dados virão d
 ## Material de apoio:
 
 <a href="https://youtu.be/21kruF0a3mQ">TUTORIAL DO DESAFIO</a>
+
 <a href="https://fakestoreapi.com/">Fake Store API</a>
+
 <a href="https://www.youtube.com/watch?v=VM4e37DaskU">API com Axios</a>
 
 # Recomendações de cursos e conteúdos
