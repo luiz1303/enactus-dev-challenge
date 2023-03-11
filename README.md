@@ -23,6 +23,8 @@ O intuito deste projeto é puramente o aprendizado da estrutura e estilização 
 
 ## Material de apoio:
 
+<a href="https://drive.google.com/file/d/14EmfiANnEoAVnTUN8MVbVLdl6Pz6nQk-/view"> TUTORIAL DO DESAFIO</a>
+
 Conteúdo dentro da pasta `1_Desafio_HTML_CSS > modelo`
 
 # 2 - Desafio JavaScript e TypeScript
@@ -55,6 +57,7 @@ O jogo deve obedecer as seguintes regras:
 
 ## Material de apoio:
 
+<a href="https://youtu.be/LthS4B-IUdg"> TUTORIAL DO DESAFIO</a>
 <a href="https://github.com/luiz1303/Termo_clone">https://github.com/luiz1303/Termo_clone</a>
 
 # 3 - Desafio Git e GitHub
@@ -77,21 +80,18 @@ Alterações:
 
 ## Material de apoio:
 
+<a href="https://youtu.be/aiPd6VbRplY">TUTORIAL DO DESAFIO</a>
 <a href="https://github.com/luiz1303/Tutorial_Git">https://github.com/luiz1303/Tutorial_Git</a>
 
 # 4 - Desafio NodeJS e ReactJS
 
-Implementar um Widget de previsão do tempo com ReactJ, em que os dados virão de uma API.
+Implementar a página inicial de um website de compras, em que os dados virão de uma API.
 
 ## Material de apoio:
 
-<a href="https://theultimateapichallenge.com/weather-api-react">Desafio Original</a>
-
+<a href="https://youtu.be/21kruF0a3mQ">TUTORIAL DO DESAFIO</a>
+<a href="https://fakestoreapi.com/">Fake Store API</a>
 <a href="https://www.youtube.com/watch?v=VM4e37DaskU">API com Axios</a>
-
-## Material de apoio:
-
-<a href="https://www.youtube.com/watch?v=V2T_bkOs0xA">Rotas Dinâmicas com NextJS</a>
 
 # Recomendações de cursos e conteúdos
 
